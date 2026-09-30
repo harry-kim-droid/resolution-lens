@@ -7,7 +7,7 @@
   "width": 1920,
   "height": 1080,
   "fps": 24,
-  "published": false,
+  "published": true,
   "slides": [
     {
       "screen": "01-start.png",
@@ -73,5 +73,6 @@
       "duration_seconds": 12,
       "frame_sha256": "95f8f58b6c6c6e1b170d1ced813e318de7f35918632cb74c622b0a905d96d671"
     }
-  ]
+  ],
+  "public_url": "https://github.com/harry-kim-droid/resolution-lens/blob/main/demo/resolution-lens-walkthrough.mp4"
 }
