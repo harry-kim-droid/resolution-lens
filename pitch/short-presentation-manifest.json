@@ -1,0 +1,19 @@
+{
+  "product": "Resolution Lens",
+  "date": "2026-10-01",
+  "source_observations_date": "2026-09-30",
+  "format": "Silent reference presentation using the same six previously verified slide renders, nineteen seconds per slide.",
+  "duration_seconds": 113.958333,
+  "nominal_duration_seconds": 114,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "video_bytes": 1076877,
+  "video_codec": "h264",
+  "audio": false,
+  "slide_count": 6,
+  "validation": "ffprobe properties and complete ffmpeg video decoding passed. Source slide renders were individually inspected during original deck verification.",
+  "portal_limit": "Actual authenticated portal: pitch up to 2 minutes, demo up to 3 minutes; YouTube, Loom or Vimeo URLs. Demo must show the running product.",
+  "compliance_status": "Reference material only. Fits pitch duration, but accepted-provider hosting and entrant/content suitability remain unresolved. No founder voice or on-camera footage is claimed.",
+  "video_url": "https://github.com/harry-kim-droid/resolution-lens/blob/main/pitch/resolution-lens-product-presentation-114s.mp4"
+}

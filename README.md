@@ -2,11 +2,11 @@
 
 A read-only research workspace for Panta prediction markets. Put each market's prices beside its returned resolution wording, source links, timestamps and recent trades; compare markets and export a dated review.
 
-Built for the Panta API Sidetrack of Colosseum Crypto World's Fair, September 2026. Superteam received the sidetrack submission on September 30. Official Colosseum registration and submission remain pending. No prize has been awarded.
+Built for the Panta API Sidetrack of Colosseum Crypto World's Fair, September–October 2026. Superteam received the sidetrack submission on September 30. Colosseum registration is complete and the [official project draft](https://colosseum.com/arena/projects/resolution-lens) exists. Final submission remains pending; no prize has been awarded.
 
 [Watch or download the 96-second product walkthrough](demo/resolution-lens-walkthrough.mp4)
 
-[2-minute 24-second product presentation](pitch/resolution-lens-product-pitch.mp4) · [Editable pitch deck](pitch/resolution-lens-product-pitch.pptx)
+[114-second reference presentation](pitch/resolution-lens-product-presentation-114s.mp4) · [Original 2-minute 24-second presentation](pitch/resolution-lens-product-pitch.mp4) · [Editable pitch deck](pitch/resolution-lens-product-pitch.pptx)
 
 ![Market review and comparison](demo/screens/07-comparison.png)
 
@@ -43,6 +43,8 @@ The local server forwards authenticated GET requests to `https://live-api.panta.
 On September 30, authorized live-key reads returned 40 markets across two pages, a market detail with YES/NO quotes, nine trade records and a two-market browser export. Provider metadata was incomplete: most initial catalog titles were blank, and the reviewed detail had no resolution wording. Missing fields and null quotes stay unavailable. A live key does not establish that every returned market is economically active or that its rules are valid.
 
 The [walkthrough](demo/resolution-lens-walkthrough.mp4) is a silent, English-captioned sequence of seven real browser screenshots and a summary slide. It shows dated observations rather than current prices. [Captions](demo/walkthrough.vtt) and the [capture manifest](demo/walkthrough-manifest.json) accompany it. The separate [product presentation](pitch/resolution-lens-product-pitch.mp4) uses six slides with English on-screen text and lasts 2 minutes 24 seconds. It covers verified product behavior and business hypotheses. The [PPTX](pitch/resolution-lens-product-pitch.pptx) preserves editable text and citations in speaker notes. Both videos are silent and do not record the entrant speaking.
+
+The authenticated Colosseum form checked October 1 requires a running-product demo of up to 3 minutes and a separate entrant/product pitch of up to 2 minutes, both on YouTube, Loom or Vimeo. The GitHub videos are reference materials; no accepted-provider submission links have been supplied. The approximately 114-second slide version fits the time limit but does not establish content or hosting acceptance. Final submission opens October 6, 2026 at 04:00 PDT (20:00 Asia/Seoul).
 
 ## Validation and limits
 
