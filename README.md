@@ -2,7 +2,7 @@
 
 A read-only research workspace for Panta prediction markets. Put each market's prices beside its returned resolution wording, source links, timestamps and recent trades; compare markets and export a dated review.
 
-Built for the Panta API Sidetrack of Colosseum Crypto World's Fair, September 2026. This repository is a working prototype, not a submitted or awarded entry.
+Built for the Panta API Sidetrack of Colosseum Crypto World's Fair, September 2026. Superteam received the sidetrack submission on September 30. Official Colosseum registration and submission remain pending. No prize has been awarded.
 
 [Watch or download the 96-second product walkthrough](demo/resolution-lens-walkthrough.mp4)
 
