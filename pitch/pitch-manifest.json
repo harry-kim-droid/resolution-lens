@@ -1,0 +1,19 @@
+{
+  "product": "Resolution Lens",
+  "date": "2026-09-30",
+  "format": "Silent product presentation using six slides with English on-screen text and dated real API screenshots.",
+  "duration_seconds": 144,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "video_bytes": 1746671,
+  "video_codec": "h264",
+  "audio": false,
+  "slide_count": 6,
+  "deck_text_editable": true,
+  "validation": "PPTX package, layout, font and first-party import checks passed. All six final slide renders inspected. Full video decoding passed.",
+  "background_disclosure": "Only the entrant's owner-provided public name and country appear. No prior experience, customers or founder biography is invented. Development uses AI coding assistance.",
+  "published": true,
+  "video_url": "https://github.com/harry-kim-droid/resolution-lens/blob/main/pitch/resolution-lens-product-pitch.mp4",
+  "deck_url": "https://github.com/harry-kim-droid/resolution-lens/blob/main/pitch/resolution-lens-product-pitch.pptx"
+}

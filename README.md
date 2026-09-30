@@ -6,6 +6,8 @@ Built for the Panta API Sidetrack of Colosseum Crypto World's Fair, September 20
 
 [Watch or download the 96-second product walkthrough](demo/resolution-lens-walkthrough.mp4)
 
+[2-minute 24-second product presentation](pitch/resolution-lens-product-pitch.mp4) · [Editable pitch deck](pitch/resolution-lens-product-pitch.pptx)
+
 ![Market review and comparison](demo/screens/07-comparison.png)
 
 ## What works
@@ -40,7 +42,7 @@ The local server forwards authenticated GET requests to `https://live-api.panta.
 
 On September 30, authorized live-key reads returned 40 markets across two pages, a market detail with YES/NO quotes, nine trade records and a two-market browser export. Provider metadata was incomplete: most initial catalog titles were blank, and the reviewed detail had no resolution wording. Missing fields and null quotes stay unavailable. A live key does not establish that every returned market is economically active or that its rules are valid.
 
-The [walkthrough](demo/resolution-lens-walkthrough.mp4) is a silent, English-captioned sequence of seven real browser screenshots and a summary slide, rather than a continuous screen recording. It shows dated observations, not current prices. [Captions](demo/walkthrough.vtt) and the [capture manifest](demo/walkthrough-manifest.json) accompany it. A human founder presentation is still pending.
+The [walkthrough](demo/resolution-lens-walkthrough.mp4) is a silent, English-captioned sequence of seven real browser screenshots and a summary slide. It shows dated observations rather than current prices. [Captions](demo/walkthrough.vtt) and the [capture manifest](demo/walkthrough-manifest.json) accompany it. The separate [product presentation](pitch/resolution-lens-product-pitch.mp4) uses six slides with English on-screen text and lasts 2 minutes 24 seconds. It covers verified product behavior and business hypotheses. The [PPTX](pitch/resolution-lens-product-pitch.pptx) preserves editable text and citations in speaker notes. Both videos are silent and do not record the entrant speaking.
 
 ## Validation and limits
 
