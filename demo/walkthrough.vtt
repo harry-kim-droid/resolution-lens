@@ -1,0 +1,33 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.000
+A read-only research workspace
+The API key stays on the local server. Researchers review prices, rules and evidence without trading or connecting a wallet.
+
+00:00:12.000 --> 00:00:24.000
+Discover markets with Panta pagination
+The approved live key returned 40 markets across two pages. Catalog rows can omit titles and prices; missing data is shown explicitly.
+
+00:00:24.000 --> 00:00:36.000
+Fetch a market detail on demand
+This detail returned the Big Brother Naija question, timestamps and independent YES / NO quotes. Prices reflect the captured observation.
+
+00:00:36.000 --> 00:00:48.000
+Make missing resolution wording visible
+Panta did not return resolution wording for this market. The viewer explains that it cannot assess absent rules or verify the outcome.
+
+00:00:48.000 --> 00:01:00.000
+Inspect the returned trade tape
+The API returned nine trade records. Amounts are preserved as received, with no guessed unit conversion or complete-history claim.
+
+00:01:00.000 --> 00:01:12.000
+Search the pages already loaded
+A fetched detail title enriches its catalog row. Search applies to loaded markets, including available titles, identifiers and categories.
+
+00:01:12.000 --> 00:01:24.000
+Compare two observations and export
+Two fetched markets were exported with mode=live and synthetic=false. Null quotes stay unavailable; observation times remain visible.
+
+00:01:24.000 --> 00:01:36.000
+Verified integration, clear limits
+This prototype has no claimed customers, revenue or award. Next steps are resolution-metadata validation and research with actual users.

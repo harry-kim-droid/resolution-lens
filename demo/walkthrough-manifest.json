@@ -1,0 +1,77 @@
+{
+  "product": "Resolution Lens",
+  "capture_date": "2026-09-30",
+  "format": "Silent English-captioned walkthrough made from real browser screenshots, not a continuous screen recording.",
+  "source": "Authorized Panta live-key reads through the local viewer. No credential is in the video.",
+  "duration_seconds": 96,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "published": false,
+  "slides": [
+    {
+      "screen": "01-start.png",
+      "title": "A read-only research workspace",
+      "caption": "The API key stays on the local server. Researchers review prices, rules and evidence without trading or connecting a wallet.",
+      "start_seconds": 0,
+      "duration_seconds": 12,
+      "frame_sha256": "aa2bc0f19b1790ee0c47bc072bba4690dc861769dcb7764c5b593b1ae98c0c8b"
+    },
+    {
+      "screen": "02-catalog.png",
+      "title": "Discover markets with Panta pagination",
+      "caption": "The approved live key returned 40 markets across two pages. Catalog rows can omit titles and prices; missing data is shown explicitly.",
+      "start_seconds": 12,
+      "duration_seconds": 12,
+      "frame_sha256": "39d9d3e03929221e261199bbc2e2ae783592e2d3318501077f749e619de0b213"
+    },
+    {
+      "screen": "03-detail.png",
+      "title": "Fetch a market detail on demand",
+      "caption": "This detail returned the Big Brother Naija question, timestamps and independent YES / NO quotes. Prices reflect the captured observation.",
+      "start_seconds": 24,
+      "duration_seconds": 12,
+      "frame_sha256": "e3b03e61cc8b60eb06884f9e6205499c090eb7e2321c3ea9cef8ac67d3275faa"
+    },
+    {
+      "screen": "04-rules.png",
+      "title": "Make missing resolution wording visible",
+      "caption": "Panta did not return resolution wording for this market. The viewer explains that it cannot assess absent rules or verify the outcome.",
+      "start_seconds": 36,
+      "duration_seconds": 12,
+      "frame_sha256": "e541ca39d4e698a9a59cdd8edf2e627178636a7b44c8c04a6dcd57d1a17d45c0"
+    },
+    {
+      "screen": "05-trades.png",
+      "title": "Inspect the returned trade tape",
+      "caption": "The API returned nine trade records. Amounts are preserved as received, with no guessed unit conversion or complete-history claim.",
+      "start_seconds": 48,
+      "duration_seconds": 12,
+      "frame_sha256": "37660534d7f5cf9f02a1edd651601734ba6f3a02def022c8bd669ab6f17f085e"
+    },
+    {
+      "screen": "06-search.png",
+      "title": "Search the pages already loaded",
+      "caption": "A fetched detail title enriches its catalog row. Search applies to loaded markets, including available titles, identifiers and categories.",
+      "start_seconds": 60,
+      "duration_seconds": 12,
+      "frame_sha256": "42097612adeb20857c4ce747d5cc6bc0991bab83891c7cc52f5a475ce65a56cf"
+    },
+    {
+      "screen": "07-comparison.png",
+      "title": "Compare two observations and export",
+      "caption": "Two fetched markets were exported with mode=live and synthetic=false. Null quotes stay unavailable; observation times remain visible.",
+      "start_seconds": 72,
+      "duration_seconds": 12,
+      "frame_sha256": "3769f109c59cb85ccfb5d44dc008e451f16f9fdaf77f9b31689c41ea484b3d67"
+    },
+    {
+      "screen": null,
+      "title": "Verified integration, clear limits",
+      "caption": "This prototype has no claimed customers, revenue or award. Next steps are resolution-metadata validation and research with actual users.",
+      "start_seconds": 84,
+      "duration_seconds": 12,
+      "frame_sha256": "95f8f58b6c6c6e1b170d1ced813e318de7f35918632cb74c622b0a905d96d671"
+    }
+  ]
+}

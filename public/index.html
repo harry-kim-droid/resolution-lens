@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Read market rules, compare Panta spot prices and record the evidence behind a resolution.">
+  <title>Resolution Lens · Market research</title>
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.mjs"></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="/" aria-label="Resolution Lens home"><span class="brand-mark" aria-hidden="true">RL</span><span>Resolution Lens<small>Market research workspace</small></span></a>
+    <span class="provider">Powered by <a href="https://panta.market" target="_blank" rel="noopener noreferrer">Panta</a></span>
+  </header>
+  <main>
+    <div class="intro"><div><p class="eyebrow">Price → rules → evidence</p><h1>Read what resolves<br>the market.</h1></div><p class="intro-note">Put spot prices beside the stated rules.<br>Compare markets and save what you checked.</p></div>
+    <section class="connection" aria-label="Data source">
+      <div><strong id="mode-label">Checking local connection…</strong><p id="connection-note">Live market access requires a server API key.</p></div>
+      <div class="actions"><button id="live-button" class="secondary" disabled>Load live markets</button><button id="example-button">Open synthetic example</button></div>
+    </section>
+    <p id="notice" role="status" aria-live="polite" class="notice" hidden></p>
+    <div class="workspace">
+      <section class="catalog" aria-labelledby="catalog-title">
+        <div class="section-heading"><h2 id="catalog-title">Market catalog</h2><span id="market-count" class="count">0 loaded</span></div>
+        <form id="filters">
+          <label>Search loaded markets<input id="search" type="search" placeholder="Title or rules" autocomplete="off"></label>
+          <div class="filter-row"><label>Phase<select id="phase"><option value="">All phases</option><option value="primary">Primary</option><option value="secondary">Secondary</option><option value="resolved">Resolved</option><option value="cancelled">Cancelled</option></select></label><label>Category<input id="category" placeholder="e.g. crypto" maxlength="64" pattern="[a-zA-Z0-9_-]*"></label></div>
+          <button class="secondary full" type="submit">Apply filters</button>
+        </form>
+        <p class="catalog-note">Catalog rows have no spot prices. Open a market to request its detail.</p>
+        <div id="markets" class="market-list"><p class="empty">Load live markets or open the example to start a review.</p></div>
+        <button id="more" class="secondary full" hidden>Load next page</button>
+      </section>
+      <section class="workbench" aria-labelledby="review-title">
+        <div class="section-heading"><h2 id="review-title">Resolution review</h2><button id="refresh" class="text-button" disabled>Refresh detail</button></div>
+        <div id="detail"><div class="empty workbench-empty"><div class="lens-symbol" aria-hidden="true">?</div><h3>Every market has a condition.</h3><p>Open one to see its price, timeline and linked evidence together.</p></div></div>
+      </section>
+    </div>
+    <section class="comparison" aria-labelledby="compare-title">
+      <div class="section-heading"><div><h2 id="compare-title">Compare your review</h2><p class="catalog-note">Up to three markets, using their last fetched details.</p></div><button id="export" class="secondary" disabled>Save research snapshot</button></div>
+      <div id="comparison"><p class="empty">Add a market from its review to compare prices, dates and missing evidence.</p></div>
+    </section>
+    <footer>Read-only research. Flags describe returned data; they do not predict outcomes. Prices may be unavailable or change after you fetch them.</footer>
+  </main>
+</body>
+</html>

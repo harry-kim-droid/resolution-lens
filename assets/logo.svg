@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Resolution Lens</title>
+  <desc id="desc">RL monogram on a slate-blue circular lens with two blue evidence markers.</desc>
+  <rect width="512" height="512" rx="112" fill="#eff4f8"/>
+  <circle cx="256" cy="256" r="184" fill="#22384d"/>
+  <text x="243" y="300" text-anchor="middle" fill="#ffffff" font-family="Trebuchet MS, sans-serif" font-size="156" font-weight="700" letter-spacing="-18">RL</text>
+  <circle cx="111" cy="144" r="19" fill="#287b9c" stroke="#eff4f8" stroke-width="8"/>
+  <circle cx="401" cy="368" r="19" fill="#287b9c" stroke="#eff4f8" stroke-width="8"/>
+</svg>
